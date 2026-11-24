@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Shop – Aurelia Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,500&family=Jost:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div id="site-header"></div>
+    <main>
+        <div class="wrap page">
+            <h1 style="font-size:clamp(2.6rem,6vw,4.4rem)">The collection</h1>
+            <p>Search by name or filter by room.</p>
+        </div>
+        <section style="padding-top:36px">
+            <div class="wrap">
+                <div class="bar">
+                    <div class="search"><input id="q" type="search" placeholder="Search sofas, lamps, oak…"
+                            aria-label="Search products"></div>
+                    <select id="sort" aria-label="Sort">
+                        <option value="">Featured</option>
+                        <option value="lo">Price: low to high</option>
+                        <option value="hi">Price: high to low</option>
+                    </select><span id="count" class="msg"></span>
+                </div>
+                <div class="chips" id="chips"></div>
+                <div class="grid" id="grid"></div>
+            </div>
+        </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="java.js"></script>
+</body>
+
+</html>

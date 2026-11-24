@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contact us – Aurelia Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,500&family=Jost:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div id="site-header"></div>
+    <main>
+        <div class="wrap page">
+            <h1 style="font-size:clamp(2.6rem,6vw,4.4rem)">Contact us</h1>
+            <p>Questions about a piece or a custom order? Write to us.</p>
+        </div>
+        <section>
+            <div class="wrap split" style="align-items:start">
+                <form class="form" id="contactForm"><label>Your name<input name="name"
+                            required></label><label>Email<input name="email" type="email"
+                            required></label><label>Message<textarea name="message" required></textarea></label>
+                    <p class="msg" id="cmsg"></p><button class="btn">Send message</button>
+                </form>
+                <div class="info">
+                    <div><b>Showroom</b>12 Artisan Row, Damascus</div>
+                    <div><b>Opening hours</b>Saturday to Thursday, 10:00 to 19:00</div>
+                    <div><b>Call or write</b>+963 11 000 0000<br>hello@aureliahome.com</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="java.js"></script>
+</body>
+
+</html>
